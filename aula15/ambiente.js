@@ -13,8 +13,8 @@ for (let c in num) {
 
 let search = num.indexOf(busca)
 
-if(search == -1) {
+if (search == -1) {
     console.log('Valor não encontrado');
-}else{
+} else {
     console.log(`Valor ${busca} encontrado na posição ${search}`);
 }
